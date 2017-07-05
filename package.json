@@ -1,0 +1,23 @@
+{
+  "name": "documentationjs-server",
+  "version": "0.1.0",
+  "description": "A documentation.js server for multiple git repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kriegslustig/documentationjs-server.git"
+  },
+  "keywords": [
+    "Documentation",
+    "Documentation.js"
+  ],
+  "author": "Kriegslustig <npm@ls7.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kriegslustig/documentationjs-server/issues"
+  },
+  "homepage": "https://github.com/Kriegslustig/documentationjs-server#readme"
+}
