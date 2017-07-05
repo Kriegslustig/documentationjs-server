@@ -4,6 +4,8 @@
   "description": "A documentation.js server for multiple git repositories",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/Kriegslustig/documentationjs-server/issues"
   },
-  "homepage": "https://github.com/Kriegslustig/documentationjs-server#readme"
+  "homepage": "https://github.com/Kriegslustig/documentationjs-server#readme",
+  "dependencies": {
+    "documentation": "4.0.0-rc.1",
+    "express": "4.15.3",
+    "rimraf": "2.6.1",
+    "simple-git": "1.73.0",
+    "uuid": "3.1.0"
+  },
+  "devDependencies": {
+    "glob": "7.1.2",
+    "nodemon": "1.11.0"
+  }
 }
